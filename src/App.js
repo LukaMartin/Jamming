@@ -243,27 +243,4 @@ function App() {
 export default App;
 
 
-{/* <SearchBar
-          Spotify={Spotify}
-        />
-      </div>
-      <div>
-        <SearchResults 
-          searchResults={searchResults}
-          addTrack={addTrack}
-        />
-      </div>
-      <div>
-      <Playlists
-          setPlaylistName={setPlaylistName}
-          playlistName={playlistName}
-          createPlaylist={createPlaylist}
-          accessData={accessData}
-          setSelectedPlaylistId={setSelectedPlaylistId}
-          selectedPlaylistId={selectedPlaylistId}
-          getPlaylistTracks={getPlaylistTracks}
-          playlistTracks={playlistTracks}
-          setSelectedPlaylistSnapshotId={setSelectedPlaylistSnapshotId}
-          removeTrack={removeTrack}
-          currentPlaylists={currentPlaylists}
-     /> */}
+
