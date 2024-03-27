@@ -42,8 +42,8 @@ function App() {
   }, [])
 
 
-  const clientId = '2c7fd96757f94bfda616a4efb6463751';
-  const redirectUri = 'http://jamming-sand.vercel.app/';
+  const clientId = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
+  const redirectUri = 'https://jamming-sand.vercel.app/';
 
 
   const Spotify = {
