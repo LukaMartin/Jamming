@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 body {
-  background-color: #161650
+  background-color: #DDDDDD
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #596235;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2F3020;
+  border-radius: 5px;
+}
+

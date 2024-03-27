@@ -33,8 +33,6 @@ function App() {
 
   useEffect(() => {
 
-    console.log('useEffect page load')
-
     const accessTokenMatch = window.location.href.match(/access_token=([^&]*)/);
     if (accessTokenMatch) {
       Spotify.getAccessToken()
@@ -71,7 +69,6 @@ function App() {
       } else {
         const accessUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
         window.location = accessUrl;
-        //setTimeout(this.getAccessToken(), 200)
       }
     },
 
@@ -212,10 +209,12 @@ function App() {
     }
 
   }
+
+
   return (
     <>
-      <div className='flex align-middle justify-center p-12 text-white'>
-        <h1 className='text-5xl'>SPOTIFY JAMMING APP</h1>
+      <div className='flex align-middle justify-center p-12'>
+        <h1 className='text-5xl font-semibold text-[#2F3020] [text-shadow:0px_3px_3px_#2F3020]'>SPOTIFY JAMMING APP</h1>
       </div>
       {accessToken === "" ? (
         <div>

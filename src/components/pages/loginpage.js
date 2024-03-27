@@ -3,7 +3,7 @@ import React from "react";
 function LoginPage({ Spotify }) {
 
     return (
-        <div className='text-white mt-10'>
+        <div className='text-[#2F3020] mt-10'>
             <div className='text-center p-4 font-semibold text-2xl'>
                 <h2>Welcome to the Spotify Jamming App</h2>
             </div>
@@ -20,7 +20,7 @@ function LoginPage({ Spotify }) {
 
             <div className='mt-10 text-center'>
                 <p className='text-lg py-6'>Click the button below to login to your Spotify account and access the Jamming app</p>
-                <button className='text-2xl border-2 rounded px-2 pb-1' type="button" onClick={Spotify.getAccessToken}>LOGIN</button>
+                <button className='text-2xl border-2 border-[#2F3020] rounded-xl px-2 pb-1 hover:bg-[#9EB57B]' type="button" onClick={Spotify.getAccessToken}>LOGIN</button>
             </div>
         </div>
     )
