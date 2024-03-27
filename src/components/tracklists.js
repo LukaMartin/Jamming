@@ -14,7 +14,6 @@ function TrackList({tracklist, addTrack, Spotify}) {
                     Spotify.addTrack(track.uri)
         
                 }
-
                 return (
                 <div>
                     <div>

@@ -14,11 +14,7 @@ function Playlists({
 }) {
 
 
-
-
     const [selectedPlaylist, setSelectedPlaylist] = useState("")
-
-
 
     const handleClick = useCallback(() => {
 

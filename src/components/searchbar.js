@@ -13,7 +13,6 @@ function SearchBar({ Spotify }) {
     }, [searchTerm])
 
 
-
     return (
         <div className='pb-16'>
             <div className='flex align-middle justify-center p-2'>
