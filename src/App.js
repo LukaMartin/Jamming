@@ -43,7 +43,7 @@ function App() {
 
 
   const clientId = '2c7fd96757f94bfda616a4efb6463751';
-  const redirectUri = 'http://localhost:3000/';
+  const redirectUri = 'https://jamming-sand.vercel.app/';
 
 
   const Spotify = {
@@ -214,7 +214,7 @@ function App() {
   return (
     <>
       <div className='flex align-middle justify-center p-12'>
-        <h1 className='text-5xl font-semibold text-[#2F3020] [text-shadow:0px_3px_3px_#2F3020]'>SPOTIFY JAMMING APP</h1>
+        <h1 className='text-5xl font-semibold text-[#2F3020] [text-shadow:0px_2px_2px_#2F3020]'>SPOTIFY JAMMING APP</h1>
       </div>
       {accessToken === "" ? (
         <div>
