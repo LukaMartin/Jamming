@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import LoginPage from './components/pages/loginpage';
 import MainPage from './components/pages/mainpage'
+import MobilePage from './components/pages/mobilepage';
 
 
 function App() {
@@ -214,14 +215,17 @@ function App() {
   return (
     <>
       <div className='flex align-middle justify-center p-12'>
-        <h1 className='text-5xl font-semibold text-[#2F3020] [text-shadow:0px_2px_2px_#2F3020]'>SPOTIFY JAMMING APP</h1>
+        <h1 className='text-3xl lg:text-5xl font-semibold text-[#2F3020] [text-shadow:0px_2px_2px_#2F3020]'>SPOTIFY JAMMING APP</h1>
+      </div>
+      <div className='lg:hidden'>
+        <MobilePage />
       </div>
       {accessToken === "" ? (
-        <div>
+        <div className='hidden lg:block'>
           <LoginPage Spotify={Spotify} />
         </div>
       ) : (
-        <div>
+        <div className='hidden lg:block'>
           <MainPage
             Spotify={Spotify}
             searchResults={searchResults}
