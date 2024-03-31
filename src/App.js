@@ -214,7 +214,7 @@ function App() {
 
   return (
     <>
-      <div className='flex align-middle justify-center p-12'>
+      <div className='flex align-middle justify-center text-center p-12'>
         <h1 className='text-3xl lg:text-5xl font-semibold text-[#2F3020] [text-shadow:0px_2px_2px_#2F3020]'>SPOTIFY JAMMING APP</h1>
       </div>
       <div className='lg:hidden'>
