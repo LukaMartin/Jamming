@@ -1,3 +1,18 @@
+# Spotify Jamming Project
+
+This project was created as part of my CodeAcademy full stack course. The tech stack for the project is React and Tailwind CSS.
+
+The app allows you to do the following with your Spotify account:
+
+- Search for music by track name or artist
+- Display current playlists in your Spotify library
+- Customise your playlists by adding and removing tracks
+- Create new playlists to add to your library
+
+The tech stack used for this application is JavaScript, React and Tailwind CSS.
+
+To use the application please head to: https://jamming-sand.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -45,15 +60,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-**Spotify Jamming Project**
 
-This project was created as part of my CodeAcademy full stack course. The tech stack for the project is React and Tailwind CSS.
-
-The app allows you to do the following with your Spotify account:
-
-- Search for music by track name or artist
-- Display current playlists in your Spotify library
-- Customise your playlists by adding and removing tracks
-- Create new playlists to add to your library
-
-I will continue to develop this in the future and look to add more features!
